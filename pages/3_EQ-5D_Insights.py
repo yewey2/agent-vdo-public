@@ -96,6 +96,8 @@ if iris_present:
             intersys_loaded = False
             print("Intersys not working!")
             print(e)
+else:
+    intersys_loaded = False
 
 ## New functions
 def extract_entities(text):
