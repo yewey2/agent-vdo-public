@@ -67,23 +67,23 @@ input_csv_path = f"{folder_stem}eq5d/eq5d_actual_scores_disc.csv"
 # Load the CSV of output data
 data = pd.read_csv(f'{input_csv_path}')
 
-## Load intersys database
-username = '_system'
-password = 'sys'
-hostname = os.getenv('IRIS_HOSTNAME', 'localhost')
-port = '1972' 
-namespace = 'USER'
-CONNECTION_STRING = f"{hostname}:{port}/{namespace}"
-
-# Note: Ideally conn and cursor should be used with context manager or with try-execpt-finally 
-conn = iris.connect(CONNECTION_STRING, username, password)
-cursor = conn.cursor()
-
-tableName = "SchemaName.TableName"
-
-tableDefinition = "(case_number VARCHAR(255), entity VARCHAR(4096), first_header VARCHAR(4096), entity_vector VECTOR(DOUBLE, 384))"
-
 if iris_present:
+    ## Load intersys database
+    username = '_system'
+    password = 'sys'
+    hostname = os.getenv('IRIS_HOSTNAME', 'localhost')
+    port = '1972' 
+    namespace = 'USER'
+    CONNECTION_STRING = f"{hostname}:{port}/{namespace}"
+
+    # Note: Ideally conn and cursor should be used with context manager or with try-execpt-finally 
+    conn = iris.connect(CONNECTION_STRING, username, password)
+    cursor = conn.cursor()
+
+    tableName = "SchemaName.TableName"
+
+    tableDefinition = "(case_number VARCHAR(255), entity VARCHAR(4096), first_header VARCHAR(4096), entity_vector VECTOR(DOUBLE, 384))"
+
     try:
         cursor.execute(f"CREATE TABLE {tableName} {tableDefinition}")
         intersys_loaded = True
