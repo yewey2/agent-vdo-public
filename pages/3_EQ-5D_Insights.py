@@ -416,7 +416,8 @@ for _, row in filtered_data.iterrows():
             # Calculate similarity score between entities and category
             dist, indices = compareQueryIssues(faiss_index, categorydescription[category], k=10)
             entity_filtered = []
-            for entitystr, entityscore in zip([entitystr_list[0][1][i] for i in indices], dist):
+            print(dist)
+            for entitystr, entityscore in zip([entitystr_list[0][1][i] for i in indices], dist.flatten()):
                 if entityscore > 0.25:  # Assuming a threshold of 0.5
                     entity_filtered.append(((entitystr.split("/n/n")[0]+ f" \n[Main Issue: {entitystr_list[0][0]}]").replace("*",""), entityscore))
                 else:
