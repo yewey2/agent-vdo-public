@@ -1,6 +1,6 @@
 ---
-title: Agent VDO Demo
-emoji: 🐨
+title: Agent VDO Public Demo
+emoji: 🦉
 colorFrom: blue
 colorTo: indigo
 sdk: streamlit

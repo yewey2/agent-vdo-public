@@ -96,6 +96,8 @@ if iris_present:
             intersys_loaded = False
             print("Intersys not working!")
             print(e)
+else:
+    intersys_loaded = False
 
 ## New functions
 def extract_entities(text):
@@ -399,26 +401,27 @@ for _, row in filtered_data.iterrows():
         if intersys_loaded and iris_present:
             # TODO async
             save_to_database(row['case_number'], entitystr_list[0][1], entitystr_list[0][0], entity_embedding)
-            # Calculate similarity score between entities and category
-            category_embedding = model.encode(categorydescription[category], convert_to_tensor=True)
-            entity_filtered = []
-            for entitystr, entity in zip(entitystr_list[0][1], entity_embedding):
-                similarity_score = util.pytorch_cos_sim(category_embedding, entity).item()
-                if similarity_score > 0.25:  # Assuming a threshold of 0.5
-                    entity_filtered.append(((entitystr.split("/n/n")[0]+ f" \n[Main Issue: {entitystr_list[0][0]}]").replace("*",""), similarity_score))
-                else:
-                    print((entitystr, similarity_score))
-        else:
-            faiss_index = getIndexFromText(entitystr_list[0][1], saveIndex = True, index_file = f"faiss_entities_{case_int}.bin", mdl_name = "all-MiniLM-L6-v2")
+        # Calculate similarity score between entities and category
+        category_embedding = model.encode(categorydescription[category], convert_to_tensor=True)
+        entity_filtered = []
+        for entitystr, entity in zip(entitystr_list[0][1], entity_embedding):
+            similarity_score = util.pytorch_cos_sim(category_embedding, entity).item()
+            if similarity_score > 0.25:  # Assuming a threshold of 0.5
+                entity_filtered.append(((entitystr.split("/n/n")[0]+ f" \n[Main Issue: {entitystr_list[0][0]}]").replace("*",""), similarity_score))
+            else:
+                print((entitystr, similarity_score))
+        # else:
+        #     faiss_index = getIndexFromText(entitystr_list[0][1], saveIndex = True, index_file = f"faiss_entities_{case_int}.bin", mdl_name = "all-MiniLM-L6-v2")
         
-            # Calculate similarity score between entities and category
-            dist, indices = compareQueryIssues(faiss_index, categorydescription[category], k=10)
-            entity_filtered = []
-            for entitystr, entityscore in zip([entitystr_list[0][1][i] for i in indices], dist):
-                if entityscore > 0.25:  # Assuming a threshold of 0.5
-                    entity_filtered.append(((entitystr.split("/n/n")[0]+ f" \n[Main Issue: {entitystr_list[0][0]}]").replace("*",""), entityscore))
-                else:
-                    print((entitystr, entityscore))
+        #     # Calculate similarity score between entities and category
+        #     dist, indices = compareQueryIssues(faiss_index, categorydescription[category], k=10)
+        #     entity_filtered = []
+        #     print(dist)
+        #     for entitystr, entityscore in zip([entitystr_list[0][1][i] for i in indices], dist.flatten()):
+        #         if entityscore > 0.25:  # Assuming a threshold of 0.5
+        #             entity_filtered.append(((entitystr.split("/n/n")[0]+ f" \n[Main Issue: {entitystr_list[0][0]}]").replace("*",""), entityscore))
+        #         else:
+        #             print((entitystr, entityscore))
     elif iris_present and intersys_loaded:
         category_embedding = model.encode(category, convert_to_tensor=True).tolist()
 
