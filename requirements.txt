@@ -17,3 +17,4 @@ html2text==2024.2.26
 matplotlib==3.10.1
 seaborn==0.13.2
 markdown==3.7
+google-genai
