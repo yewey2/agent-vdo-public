@@ -1,0 +1,111 @@
+{
+    "q1_trouble_doing_strenuous_activities": {
+        "reason_for_score": "Patient mentioned that work as a packer is also not strenuous.",
+        "supporting_statements": [
+            "Work as a packer is also not strenuous"
+        ],
+        "captured_in_doc": true,
+        "final_score": 1
+    },
+    "q2_trouble_taking_long_walk": {
+        "reason_for_score": "Patient has reduction in effort tolerance and dyspnoea with the same level of exertion that was previously manageable.",
+        "supporting_statements": [
+            "Usually can walk 2 bus stops distance (to market) without issues",
+            "But in past 2 - 3 months (preceding back pain) has been dyspnoeic, lethargic, giddy and sweaty with same levels of exertion."
+        ],
+        "captured_in_doc": true,
+        "final_score": 3
+    },
+    "q3_trouble_taking_short_walk": {
+        "reason_for_score": "Not specifically mentioned about short walks.",
+        "supporting_statements": [],
+        "captured_in_doc": false,
+        "final_score": null
+    },
+    "q4_need_to_stay_in_bed_or_chair": {
+        "reason_for_score": "No mention of needing to stay in bed or a chair during the day.",
+        "supporting_statements": [],
+        "captured_in_doc": false,
+        "final_score": null
+    },
+    "q5_need_help_with_eating_dressing_washing_toilet": {
+        "reason_for_score": "No mention of needing help with eating, dressing, washing or using the toilet.",
+        "supporting_statements": [],
+        "captured_in_doc": false,
+        "final_score": null
+    },
+    "q6_limited_in_work_or_daily_activities": {
+        "reason_for_score": "Patient has reduced effort tolerance and gets dyspnoeic, lethargic, giddy and sweaty with same levels of exertion.",
+        "supporting_statements": [
+            "But in past 2 - 3 months (preceding back pain) has been dyspnoeic, lethargic, giddy and sweaty with same levels of exertion."
+        ],
+        "captured_in_doc": true,
+        "final_score": 3
+    },
+    "q7_limited_in_hobbies_or_leisure_activities": {
+        "reason_for_score": "No mention of limitations in hobbies or leisure activities.",
+        "supporting_statements": [],
+        "captured_in_doc": false,
+        "final_score": null
+    },
+    "q8_difficulty_concentrating": {
+        "reason_for_score": "No mention of difficulty in concentrating.",
+        "supporting_statements": [],
+        "captured_in_doc": false,
+        "final_score": null
+    },
+    "q9_feel_tense": {
+        "reason_for_score": "No mention of feeling tense.",
+        "supporting_statements": [],
+        "captured_in_doc": false,
+        "final_score": null
+    },
+    "q10_worry": {
+        "reason_for_score": "No mention of worrying.",
+        "supporting_statements": [],
+        "captured_in_doc": false,
+        "final_score": null
+    },
+    "q11_feel_irritable": {
+        "reason_for_score": "No mention of feeling irritable.",
+        "supporting_statements": [],
+        "captured_in_doc": false,
+        "final_score": null
+    },
+    "q12_feel_depressed": {
+        "reason_for_score": "No mention of feeling depressed.",
+        "supporting_statements": [],
+        "captured_in_doc": false,
+        "final_score": null
+    },
+    "q13_difficulty_remembering": {
+        "reason_for_score": "No mention of difficulty remembering things.",
+        "supporting_statements": [],
+        "captured_in_doc": false,
+        "final_score": null
+    },
+    "q14_interference_with_family_life": {
+        "reason_for_score": "No mention of the physical condition or medical treatment interfering with family life.",
+        "supporting_statements": [],
+        "captured_in_doc": false,
+        "final_score": null
+    },
+    "q15_interference_with_social_activities": {
+        "reason_for_score": "No mention of the physical condition or medical treatment interfering with social activities.",
+        "supporting_statements": [],
+        "captured_in_doc": false,
+        "final_score": null
+    },
+    "q16_overall_health_rating": {
+        "reason_for_score": "No specific rating provided for overall health during the past week.",
+        "supporting_statements": [],
+        "captured_in_doc": false,
+        "final_score": null
+    },
+    "q17_overall_quality_of_life_rating": {
+        "reason_for_score": "No specific rating provided for overall quality of life during the past week.",
+        "supporting_statements": [],
+        "captured_in_doc": false,
+        "final_score": null
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "mobility": {
+        "reason_for_score": "Patient reports discomfort after prolonged walking.",
+        "supporting_statements": [
+            "Patient reports being able to move around the ward but experiences discomfort after prolonged walking."
+        ],
+        "captured_in_doc": true,
+        "final_score": 2
+    },
+    "self_care": {
+        "reason_for_score": "Patient able to manage personal hygiene independently but takes slightly longer.",
+        "supporting_statements": [
+            "Able to manage personal hygiene independently but mentions taking slightly longer than usual."
+        ],
+        "captured_in_doc": true,
+        "final_score": 2
+    },
+    "usual_activities": {
+        "reason_for_score": "Patient has resumed some routine activities but feels more fatigued.",
+        "supporting_statements": [
+            "Notes that he/she has resumed some routine activities but feels more fatigued than before admission."
+        ],
+        "captured_in_doc": true,
+        "final_score": 2
+    },
+    "pain_discomfort": {
+        "reason_for_score": "Patient reports ongoing back discomfort, exacerbated with prolonged inactivity, but improves with movement and analgesia.",
+        "supporting_statements": [
+            "Reports ongoing back discomfort, exacerbated with prolonged inactivity, but improves with movement and analgesia."
+        ],
+        "captured_in_doc": true,
+        "final_score": 3
+    },
+    "anxiety_depression": {
+        "reason_for_score": "Patient expresses occasional low mood and worries about prognosis but remains engaged in discussions about treatment options.",
+        "supporting_statements": [
+            "Expresses occasional low mood and worries about prognosis but remains engaged in discussions about treatment options."
+        ],
+        "captured_in_doc": true,
+        "final_score": 2
+    }
+}

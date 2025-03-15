@@ -1,0 +1,116 @@
+{
+    "q1_trouble_doing_strenuous_activities": {
+        "reason_for_score": "not captured",
+        "supporting_statements": [],
+        "captured_in_doc": false,
+        "final_score": null
+    },
+    "q2_trouble_taking_long_walk": {
+        "reason_for_score": "Patient experiences discomfort after prolonged walking.",
+        "supporting_statements": [
+            "Patient reports being able to move around the ward but experiences discomfort after prolonged walking."
+        ],
+        "captured_in_doc": true,
+        "final_score": 2
+    },
+    "q3_trouble_taking_short_walk": {
+        "reason_for_score": "not captured",
+        "supporting_statements": [],
+        "captured_in_doc": false,
+        "final_score": null
+    },
+    "q4_need_to_stay_in_bed_or_chair": {
+        "reason_for_score": "not captured",
+        "supporting_statements": [],
+        "captured_in_doc": false,
+        "final_score": null
+    },
+    "q5_need_help_with_eating_dressing_washing_toilet": {
+        "reason_for_score": "Able to manage personal hygiene independently but takes slightly longer than usual.",
+        "supporting_statements": [
+            "Able to manage personal hygiene independently but mentions taking slightly longer than usual."
+        ],
+        "captured_in_doc": true,
+        "final_score": 2
+    },
+    "q6_limited_in_work_or_daily_activities": {
+        "reason_for_score": "Resumed some routine activities but feels more fatigued than before admission.",
+        "supporting_statements": [
+            "Notes that he/she has resumed some routine activities but feels more fatigued than before admission."
+        ],
+        "captured_in_doc": true,
+        "final_score": 2
+    },
+    "q7_limited_in_hobbies_or_leisure_activities": {
+        "reason_for_score": "not captured",
+        "supporting_statements": [],
+        "captured_in_doc": false,
+        "final_score": null
+    },
+    "q8_difficulty_concentrating": {
+        "reason_for_score": "not captured",
+        "supporting_statements": [],
+        "captured_in_doc": false,
+        "final_score": null
+    },
+    "q9_feel_tense": {
+        "reason_for_score": "Occasional low mood and worries about prognosis.",
+        "supporting_statements": [
+            "Expresses occasional low mood and worries about prognosis but remains engaged in discussions about treatment options."
+        ],
+        "captured_in_doc": true,
+        "final_score": 2
+    },
+    "q10_worry": {
+        "reason_for_score": "Occasional low mood and worries about prognosis.",
+        "supporting_statements": [
+            "Expresses occasional low mood and worries about prognosis but remains engaged in discussions about treatment options."
+        ],
+        "captured_in_doc": true,
+        "final_score": 2
+    },
+    "q11_feel_irritable": {
+        "reason_for_score": "not captured",
+        "supporting_statements": [],
+        "captured_in_doc": false,
+        "final_score": null
+    },
+    "q12_feel_depressed": {
+        "reason_for_score": "Occasional low mood and worries about prognosis.",
+        "supporting_statements": [
+            "Expresses occasional low mood and worries about prognosis but remains engaged in discussions about treatment options."
+        ],
+        "captured_in_doc": true,
+        "final_score": 2
+    },
+    "q13_difficulty_remembering": {
+        "reason_for_score": "not captured",
+        "supporting_statements": [],
+        "captured_in_doc": false,
+        "final_score": null
+    },
+    "q14_interference_with_family_life": {
+        "reason_for_score": "not captured",
+        "supporting_statements": [],
+        "captured_in_doc": false,
+        "final_score": null
+    },
+    "q15_interference_with_social_activities": {
+        "reason_for_score": "not captured",
+        "supporting_statements": [],
+        "captured_in_doc": false,
+        "final_score": null
+    },
+    "q16_overall_health_rating": {
+        "reason_for_score": "not captured",
+        "supporting_statements": [],
+        "captured_in_doc": false,
+        "final_score": null
+    },
+    "q17_overall_quality_of_life_rating": {
+        "reason_for_score": "not captured",
+        "supporting_statements": [],
+        "captured_in_doc": false,
+        "final_score": null
+    }
+}

@@ -1,0 +1,10 @@
+__pycache__/
+.ipynb_checkpoints/
+test*.ipynb
+.vscode/
+venv/
+venv-agent-vdo/
+.env
+lib/
+*.pkl
+upstream_git.txt

@@ -1,0 +1,42 @@
+{
+    "mobility": {
+        "reason_for_score": "Patient requires support when walking longer distances due to limb weakness.",
+        "supporting_statements": [
+            "Reports being able to mobilize around the ward but requires support when walking longer distances due to limb weakness."
+        ],
+        "captured_in_doc": true,
+        "final_score": 3
+    },
+    "self_care": {
+        "reason_for_score": "Patient needs some assistance with dressing and personal grooming but can feed independently.",
+        "supporting_statements": [
+            "Able to feed independently but needs some assistance with dressing and personal grooming."
+        ],
+        "captured_in_doc": true,
+        "final_score": 3
+    },
+    "usual_activities": {
+        "reason_for_score": "Patient expresses concerns about being unable to resume all usual activities yet but is motivated to improve.",
+        "supporting_statements": [
+            "Expresses concerns about being unable to resume all usual activities yet but is motivated to improve with rehabilitation."
+        ],
+        "captured_in_doc": true,
+        "final_score": 4
+    },
+    "pain_discomfort": {
+        "reason_for_score": "Patient continues to experience some discomfort in the left limbs, particularly during movement, but denies significant pain at rest.",
+        "supporting_statements": [
+            "Continues to experience some discomfort in the left limbs, particularly during movement, but denies significant pain at rest."
+        ],
+        "captured_in_doc": true,
+        "final_score": 3
+    },
+    "anxiety_depression": {
+        "reason_for_score": "Patient appears slightly anxious about discharge planning but reassured regarding ongoing outpatient rehabilitation and caregiver arrangements.",
+        "supporting_statements": [
+            "Appears slightly anxious about discharge planning but reassured regarding ongoing outpatient rehabilitation and caregiver arrangements."
+        ],
+        "captured_in_doc": true,
+        "final_score": 2
+    }
+}

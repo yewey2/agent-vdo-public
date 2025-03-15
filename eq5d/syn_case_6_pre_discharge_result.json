@@ -1,0 +1,38 @@
+{
+    "mobility": {
+        "reason_for_score": "Able to walk independently within the ward without assistance.",
+        "supporting_statements": [
+            "Able to walk independently within the ward without assistance"
+        ],
+        "captured_in_doc": true,
+        "final_score": 1
+    },
+    "self_care": {
+        "reason_for_score": "Resumed dressing, grooming, and toileting independently.",
+        "supporting_statements": [
+            "Has resumed dressing, grooming, and toileting independently"
+        ],
+        "captured_in_doc": true,
+        "final_score": 1
+    },
+    "usual_activities": {
+        "reason_for_score": "Not captured",
+        "supporting_statements": [],
+        "captured_in_doc": false,
+        "final_score": null
+    },
+    "pain_discomfort": {
+        "reason_for_score": "Pain is well controlled.",
+        "supporting_statements": [
+            "Pain is well controlled, knee swelling improving"
+        ],
+        "captured_in_doc": true,
+        "final_score": 1
+    },
+    "anxiety_depression": {
+        "reason_for_score": "Not captured",
+        "supporting_statements": [],
+        "captured_in_doc": false,
+        "final_score": null
+    }
+}

@@ -1,0 +1,25 @@
+[
+    ["Patient was previously walking independently but now requires assistance to transfer from bed to chair due to pain.", "mobility", "4"],
+    ["Previously able to shower alone but now needs help with washing lower limbs due to pain and restricted movement.", "self-care", "3"],
+    ["Before admission, patient managed household chores but now unable to carry out any activities due to hip pain.", "usual activities", "5"],
+    ["Reports continuous, deep aching pain in the hip, worsening with any attempted movement.", "pain/discomfort", "4"],
+    ["Expresses concern about prolonged hospitalization and impact on independence, appears slightly anxious.", "anxiety/depression", "2"],
+    
+    ["Able to walk short distances at home before, now unable to stand or bear weight on affected limb.", "mobility", "5"],
+    ["Struggles with buttoning up shirt and wearing trousers, needs assistance with dressing fully.", "self-care", "4"],
+    ["Used to enjoy evening walks and gardening but now completely unable to participate in these activities.", "usual activities", "5"],
+    ["Describes pain as sharp and stabbing, worsening at night, requiring frequent analgesia.", "pain/discomfort", "4"],
+    ["Patient appears distressed about mobility loss, expresses fear of being wheelchair-bound permanently.", "anxiety/depression", "3"],
+    
+    ["Previously independent with walking but now moves only with assistance of two persons.", "mobility", "4"],
+    ["Finds it difficult to wash hair and reach behind back, requiring help from caregiver.", "self-care", "3"],
+    ["Prior to admission, patient was managing own finances and shopping, now unable to leave bed.", "usual activities", "5"],
+    ["Pain is severe with any attempt to reposition, describes as ‘10/10’ with movement.", "pain/discomfort", "5"],
+    ["Reports poor sleep since admission, worries about long-term recovery and discharge planning.", "anxiety/depression", "3"],
+    
+    ["Walked with a walking stick prior to injury but now completely bedridden due to pain.", "mobility", "5"],
+    ["Needs full assistance for dressing and undressing, unable to lift arms above head due to pain.", "self-care", "5"],
+    ["Patient previously attended community activities, now confined to bed and unable to engage in hobbies.", "usual activities", "5"],
+    ["Mild discomfort at rest but worsens to severe pain when attempting to move.", "pain/discomfort", "4"],
+    ["Becomes tearful when discussing future rehabilitation, states ‘I don’t know if I’ll walk again’.", "anxiety/depression", "4"]
+]

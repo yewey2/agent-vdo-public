@@ -1,0 +1,41 @@
+case_number,dept,dr_name,dimension_1,captured_in_doc_1,supporting_statements_1,reason_for_score_1,final_score_1,category_1,dimension_2,captured_in_doc_2,supporting_statements_2,reason_for_score_2,final_score_2,category_2
+case_1.json,onco,Dr_A,mobility,True,"['But in past 2 - 3 months (preceding back pain) has been dyspnoeic, lethargic, giddy and sweaty with same levels of exertion.']","Reports reduction in effort tolerance and dyspnoeic, lethargic, giddy, and sweaty with the same levels of exertion.",3.0,admission_note,mobility,True,['Patient reports being able to move around the ward but experiences discomfort after prolonged walking.'],Patient reports discomfort after prolonged walking.,2.0,last_note_before_dc
+case_1.json,onco,Dr_A,self_care,False,[],Not captured.,,admission_note,self_care,True,['Able to manage personal hygiene independently but mentions taking slightly longer than usual.'],Patient able to manage personal hygiene independently but takes slightly longer.,2.0,last_note_before_dc
+case_1.json,onco,Dr_A,usual_activities,True,"['Usually can walk 2 bus stops distance (to market) without issues', 'But in past 2 - 3 months (preceding back pain) has been dyspnoeic, lethargic, giddy and sweaty with same levels of exertion.']",Reports reduction in effort tolerance impacting ability to perform usual tasks.,3.0,admission_note,usual_activities,True,['Notes that he/she has resumed some routine activities but feels more fatigued than before admission.'],Patient has resumed some routine activities but feels more fatigued.,2.0,last_note_before_dc
+case_1.json,onco,Dr_A,pain_discomfort,True,"['Sharp pain', 'Pain score 8/10 at worst, improves with analgesia']","Reports sharp lower back pain with pain score 8/10 at worst, improves with analgesia.",4.0,admission_note,pain_discomfort,True,"['Reports ongoing back discomfort, exacerbated with prolonged inactivity, but improves with movement and analgesia.']","Patient reports ongoing back discomfort, exacerbated with prolonged inactivity, but improves with movement and analgesia.",3.0,last_note_before_dc
+case_1.json,onco,Dr_A,anxiety_depression,False,[],Not captured.,,admission_note,anxiety_depression,True,['Expresses occasional low mood and worries about prognosis but remains engaged in discussions about treatment options.'],Patient expresses occasional low mood and worries about prognosis but remains engaged in discussions about treatment options.,2.0,last_note_before_dc
+case_5.json,ortho,Dr_B,mobility,False,[],not captured,,admission_note,mobility,True,['Reports being able to mobilize around the ward but requires support when walking longer distances due to limb weakness.'],Patient requires support when walking longer distances due to limb weakness.,3.0,last_note_before_dc
+case_5.json,ortho,Dr_B,self_care,False,[],not captured,,admission_note,self_care,True,['Able to feed independently but needs some assistance with dressing and personal grooming.'],Patient needs some assistance with dressing and personal grooming but can feed independently.,3.0,last_note_before_dc
+case_5.json,ortho,Dr_B,usual_activities,False,[],not captured,,admission_note,usual_activities,True,['Expresses concerns about being unable to resume all usual activities yet but is motivated to improve with rehabilitation.'],Patient expresses concerns about being unable to resume all usual activities yet but is motivated to improve.,4.0,last_note_before_dc
+case_5.json,ortho,Dr_B,pain_discomfort,True,['Denies any discomfort'],Patient denies any discomfort.,1.0,admission_note,pain_discomfort,True,"['Continues to experience some discomfort in the left limbs, particularly during movement, but denies significant pain at rest.']","Patient continues to experience some discomfort in the left limbs, particularly during movement, but denies significant pain at rest.",3.0,last_note_before_dc
+case_5.json,ortho,Dr_B,anxiety_depression,False,[],not captured,,admission_note,anxiety_depression,True,['Appears slightly anxious about discharge planning but reassured regarding ongoing outpatient rehabilitation and caregiver arrangements.'],Patient appears slightly anxious about discharge planning but reassured regarding ongoing outpatient rehabilitation and caregiver arrangements.,2.0,last_note_before_dc
+case_6.json,ortho,Dr_C,mobility,False,[],not captured,,admission_note,mobility,True,['Able to walk independently within the ward without assistance'],Able to walk independently within the ward without assistance.,1.0,last_note_before_dc
+case_6.json,ortho,Dr_C,self_care,False,[],not captured,,admission_note,self_care,True,"['Has resumed dressing, grooming, and toileting independently']","Resumed dressing, grooming, and toileting independently.",1.0,last_note_before_dc
+case_6.json,ortho,Dr_C,usual_activities,False,[],not captured,,admission_note,usual_activities,False,[],Not captured,,last_note_before_dc
+case_6.json,ortho,Dr_C,pain_discomfort,True,['Pain so far well controlled'],Pain is well controlled.,1.0,admission_note,pain_discomfort,True,"['Pain is well controlled, knee swelling improving']",Pain is well controlled.,1.0,last_note_before_dc
+case_6.json,ortho,Dr_C,anxiety_depression,True,"['Currently feels better, just lethargic']",Patient feels lethargic.,2.0,admission_note,anxiety_depression,False,[],Not captured,,last_note_before_dc
+7,notfound,notfound,mobility,True,[''],notfound,3.0,discharge,mobility,True,[''],notfound,3.0,discharge
+7,notfound,notfound,self_care,True,[''],notfound,3.0,discharge,self_care,True,[''],notfound,2.0,discharge
+7,notfound,notfound,usual_activities,True,[''],notfound,4.0,discharge,usual_activities,True,[''],notfound,3.0,discharge
+7,notfound,notfound,pain_discomfort,True,[''],notfound,1.0,discharge,pain_discomfort,True,[''],notfound,3.0,discharge
+7,notfound,notfound,anxiety_depression,True,[''],notfound,1.0,discharge,anxiety_depression,True,[''],notfound,3.0,discharge
+8,notfound,notfound,mobility,True,[''],notfound,4.0,discharge,mobility,True,[''],notfound,3.0,discharge
+8,notfound,notfound,self_care,True,[''],notfound,4.0,discharge,self_care,True,[''],notfound,3.0,discharge
+8,notfound,notfound,usual_activities,True,[''],notfound,5.0,discharge,usual_activities,True,[''],notfound,4.0,discharge
+8,notfound,notfound,pain_discomfort,True,[''],notfound,2.0,discharge,pain_discomfort,True,[''],notfound,2.0,discharge
+8,notfound,notfound,anxiety_depression,True,[''],notfound,2.0,discharge,anxiety_depression,True,[''],notfound,4.0,discharge
+9,notfound,notfound,mobility,True,[''],notfound,4.0,discharge,mobility,True,[''],notfound,4.0,discharge
+9,notfound,notfound,self_care,True,[''],notfound,3.0,discharge,self_care,True,[''],notfound,2.0,discharge
+9,notfound,notfound,usual_activities,True,[''],notfound,2.0,discharge,usual_activities,True,[''],notfound,4.0,discharge
+9,notfound,notfound,pain_discomfort,True,[''],notfound,2.0,discharge,pain_discomfort,True,[''],notfound,4.0,discharge
+9,notfound,notfound,anxiety_depression,True,[''],notfound,1.0,discharge,anxiety_depression,True,[''],notfound,3.0,discharge
+10,notfound,notfound,mobility,True,[''],notfound,3.0,discharge,mobility,True,[''],notfound,4.0,discharge
+10,notfound,notfound,self_care,True,[''],notfound,3.0,discharge,self_care,True,[''],notfound,3.0,discharge
+10,notfound,notfound,usual_activities,True,[''],notfound,4.0,discharge,usual_activities,True,[''],notfound,4.0,discharge
+10,notfound,notfound,pain_discomfort,True,[''],notfound,4.0,discharge,pain_discomfort,True,[''],notfound,3.0,discharge
+10,notfound,notfound,anxiety_depression,True,[''],notfound,2.0,discharge,anxiety_depression,True,[''],notfound,3.0,discharge
+11,notfound,notfound,mobility,True,[''],notfound,3.0,discharge,mobility,True,[''],notfound,3.0,discharge
+11,notfound,notfound,self_care,True,[''],notfound,2.0,discharge,self_care,True,[''],notfound,3.0,discharge
+11,notfound,notfound,usual_activities,True,[''],notfound,3.0,discharge,usual_activities,True,[''],notfound,4.0,discharge
+11,notfound,notfound,pain_discomfort,True,[''],notfound,2.0,discharge,pain_discomfort,True,[''],notfound,3.0,discharge
+11,notfound,notfound,anxiety_depression,True,[''],notfound,3.0,discharge,anxiety_depression,True,[''],notfound,2.0,discharge

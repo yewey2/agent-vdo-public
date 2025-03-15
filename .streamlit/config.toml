@@ -1,0 +1,15 @@
+[theme]
+base="dark"
+primaryColor="#002f46"
+textColor="#eef3ed"
+
+[server]
+enableXsrfProtection=false
+enableCORS=false
+headless=true
+
+[client]
+showSidebarNavigation = false
+
+[global]
+disableWidgetStateDuplicationWarning = true
