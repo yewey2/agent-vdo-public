@@ -8,6 +8,7 @@ sdk_version: 1.42.2
 app_file: app.py
 pinned: false
 short_description: This is a repository for Agent VDO, for HealthHack 2025
+header: mini
 ---
 
 # Agent VDO
