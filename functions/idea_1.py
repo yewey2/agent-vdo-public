@@ -295,7 +295,60 @@ def get_text_from_docx_raw(doc_path):
 
 # # Load the Word document
 def get_text_from_docx(doc_path):
-    markdown_content = extract_soap(get_text_from_docx_raw(doc_path))
+    try:
+        doc = Document(doc_path)
+    except:
+        doc = Document("/agent_vdo_mini/"+doc_path)
+        
+    # Initialize an empty string to hold the Markdown content
+    markdown_content = ""
+
+    def convert_run_to_markdown(run):
+        text = run.text
+        if run.bold:
+            text = f"**{text}**"
+        if run.italic:
+            text = f"*{text}*"
+        return text
+
+    def get_paragraph_numbering(para):
+        numbering = para._element.xpath('w:pPr/w:numPr')
+        if numbering:
+            num_id = numbering[0].xpath('w:numId/@w:val')[0]
+            ilvl = numbering[0].xpath('w:ilvl/@w:val')[0]
+            return int(num_id), int(ilvl)
+        return None, None
+
+    # Iterate through the paragraphs in the document and convert them to Markdown
+    for para in doc.paragraphs:
+        para_text = ""
+        for run in para.runs:
+            para_text += convert_run_to_markdown(run)
+
+        # Check for headings
+        if para.style.name.startswith('Heading'):
+            level = int(para.style.name.split()[-1])
+            para_text = f"{'#' * level} {para_text}"
+        # Check for numbered list items
+        num_id, ilvl = get_paragraph_numbering(para)
+        if num_id is not None:
+            # This is a numbered list item
+            para_text = f"{ilvl + 1}. {para_text.strip()}"
+        elif para.style.name.startswith('List Number'):
+            print("LIST NUMBER")
+            # Extract the list number from the paragraph text
+            list_number = para.text.split('.')[0]
+            para_text = f"{list_number}. {para_text[len(list_number)+1:].strip()}"
+        # Check for bullet list items
+        elif para.style.name.startswith('List Bullet'):
+            para_text = f"- {para_text.strip()}"
+        # Check for block quotes
+        # elif para.style.name == 'Quote':
+        #     para_text = f"> {para_text.strip()}"
+
+        markdown_content += para_text + "\n\n"
+
+    markdown_content = extract_soap(markdown_content)
     return markdown_content
 
 # # Load the Word document
