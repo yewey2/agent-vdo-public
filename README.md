@@ -1,16 +1,3 @@
----
-title: Agent VDO Public Demo
-emoji: 🦉
-colorFrom: blue
-colorTo: indigo
-sdk: streamlit
-sdk_version: 1.42.2
-app_file: app.py
-pinned: false
-short_description: This is a repository for Agent VDO, for HealthHack 2025
-header: mini
----
-
 [![Open Live Demo in HuggingFace Spaces](https://huggingface.co/datasets/huggingface/badges/raw/main/open-in-hf-spaces-sm.svg)](https://huggingface.co/spaces/agent-vdo/agent-vdo-public)
 
 # Agent VDO
