@@ -11,6 +11,8 @@ short_description: This is a repository for Agent VDO, for HealthHack 2025
 header: mini
 ---
 
+[![Open Live Demo in HuggingFace Spaces](https://huggingface.co/datasets/huggingface/badges/raw/main/open-in-hf-spaces-sm.svg)](https://huggingface.co/spaces/agent-vdo/agent-vdo-public)
+
 # Agent VDO
 
 This is a repository for Agent VDO, a submission to HealthHack 2025.
